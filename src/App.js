@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.jsx
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import HistoryPage from './components/HistoryPage';
+import CartPage from './components/CartPage';
 
-function App() {
+const App = () => {
+  const [history, setHistory] = useState([]);
+  const [cart, setCart] = useState([]);
+
+  const addToHistory = (imageUrl) => {
+    setHistory((prevHistory) => [...prevHistory, imageUrl]);
+  };
+
+  const addToCart = (item) => {
+    setCart((prevCart) => [...prevCart, item]);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+     { /* <nav>
+        <Link to="/">Home</Link>
+        <Link to="/history">History</Link>
+        <Link to="/cart">Cart</Link>
+      </nav> */}
+      <Routes >
+        <Route
+          path="/"
+          element={<HomePage addToHistory={addToHistory} />}
+        />
+        <Route
+          path="/history"
+          element={<HistoryPage history={history} />}
+        />
+        <Route
+          path="/cart"
+          element={<CartPage cart={cart} setCart={setCart} addToCart={addToCart} />}
+        />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
