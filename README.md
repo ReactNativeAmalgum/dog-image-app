@@ -75,7 +75,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 HomePage.jsx
 
-![HomePage]!(https://github.com/ReactNativeAmalgum/dog-image-app/issues/1#issue-2376997152)
+![homepage](https://github.com/ReactNativeAmalgum/dog-image-app/assets/137068385/3a24b9af-d56d-45d9-98f2-a0d7cf3cc276)
+
 
 
 
