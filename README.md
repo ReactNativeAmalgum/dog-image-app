@@ -75,5 +75,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 HomePage.jsx
 
+![homepage](https://github.com/ReactNativeAmalgum/dog-image-app/assets/137068385/3a24b9af-d56d-45d9-98f2-a0d7cf3cc276)
+
+HistoryPAge.jsx
+
+![history](https://github.com/ReactNativeAmalgum/dog-image-app/assets/137068385/0860bf36-ae00-4dc0-9b6f-264488177627)
+
+
+CartPage.jsx
+
+![cart](https://github.com/ReactNativeAmalgum/dog-image-app/assets/137068385/9f556481-acc1-49b8-80e4-e8d6fd1e20e5)
+
+
+
 
 
