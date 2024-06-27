@@ -77,6 +77,10 @@ HomePage.jsx
 
 ![homepage](https://github.com/ReactNativeAmalgum/dog-image-app/assets/137068385/3a24b9af-d56d-45d9-98f2-a0d7cf3cc276)
 
+HistoryPAge.jsx
+
+![history](https://github.com/ReactNativeAmalgum/dog-image-app/assets/137068385/0860bf36-ae00-4dc0-9b6f-264488177627)
+
 
 
 
