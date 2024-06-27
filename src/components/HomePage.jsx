@@ -33,6 +33,7 @@ const HomePage = ({ addToHistory }) => {
   return (
     <div className="homepage">
       <h1 className="title">Random Dog Image</h1>
+
       {loading ? (
         <p>Loading...</p>
       ) : (

@@ -1,4 +1,4 @@
-// src/App.jsx
+
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
@@ -19,11 +19,6 @@ const App = () => {
 
   return (
     <Router>
-     { /* <nav>
-        <Link to="/">Home</Link>
-        <Link to="/history">History</Link>
-        <Link to="/cart">Cart</Link>
-      </nav> */}
       <Routes >
         <Route
           path="/"
